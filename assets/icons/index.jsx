@@ -1,0 +1,27 @@
+const iconsMap = {
+  SearchIcon: "search-outline",
+  RatingIcon: "star",
+  ShoppingBagIcon: "bag-heart-fill",
+  CashbackIcon: "solid-offer",
+  DeliveryIcon: "delivery-dining",
+  BackIcon: "arrow-back",
+  CloseIcon: "md-close",
+  ShoppingBasketIcon: "shopping-basket",
+  CircleIcon: "circle",
+  CopyIcon: "md-copy",
+  HomeIcon: "home-outline",
+  DropArrowIcon: "md-arrow-dropdown",
+  UpArrowIcon: "md-arrow-dropup",
+  PendingIcon: "circle-exclamation",
+  AddressIcon: "reg-address-book",
+  ChatIcon: "chatbox-outline",
+  RightArrowIcon: "ios-arrow-forward",
+  RightArrowWithLineIcon: "arrow-right",
+  IssueIcon: "exclamation-octagon",
+  DownDropdownArrowIcon: "ios-arrow-down",
+  DeleteIcon: "delete",
+  CameraIcon: "camera-plus",
+  UpDropdownArrowIcon: "ios-arrow-up",
+};
+
+export { iconsMap };

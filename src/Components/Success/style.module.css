@@ -1,0 +1,41 @@
+.container {
+  min-height: 30vh;
+  max-height: 30vh;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 3vh 0;
+}
+
+.home_btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn {
+  padding: 1vh 3vw;
+  margin-top: 4vh;
+  border-radius: 10px;
+  outline: none;
+  border: none;
+  background: rgb(11, 163, 11);
+  color: #fff;
+}
+.img {
+  height: 120px;
+  width: 120px;
+}
+.details {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  align-items: center;
+  justify-content: center;
+}
+.details p {
+  font-size: 14px;
+}
+.success_msg {
+  text-align: center;
+}

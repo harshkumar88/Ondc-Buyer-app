@@ -1,0 +1,22 @@
+.tooltip {
+  position: fixed;
+  top: 85%;
+
+  z-index: 1000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.content {
+  min-width: 20%;
+  max-width: 80%;
+  background-color: rgb(34, 33, 33);
+  padding: 1vh 4vw;
+  color: rgba(247, 241, 241, 0.87);
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  border-radius: 10px;
+}

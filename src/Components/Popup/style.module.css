@@ -1,0 +1,22 @@
+.popup_container {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  align-items: flex-end;
+  justify-content: baseline;
+  background: #2e2c2c96;
+  z-index: 999988888;
+}
+
+.popup_wrapper {
+  background-color: #fff;
+  /* height: auto; */
+  /* min-height: 20vh; */
+  width: 100%;
+  border-radius: 10px 10px 0px 0px;
+  position: fixed;
+  padding: 2vh 0vw;
+}

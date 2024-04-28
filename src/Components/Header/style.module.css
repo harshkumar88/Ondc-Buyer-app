@@ -1,0 +1,147 @@
+.navbar {
+  padding: 1vh 2vw;
+  display: flex;
+  align-items: center;
+  border-bottom: 0.5px solid rgb(207, 207, 207);
+  /* margin-bottom: 5px; */
+  position: sticky;
+  top: 0;
+  z-index: 5;
+  background-color: #fff;
+}
+.navbar_label {
+  font-weight: 600;
+  display: flex;
+  font-size: 22px;
+}
+
+.back_arrow_icon {
+  font-size: 20px;
+}
+.heading {
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+  max-width: 50vw;
+  color: #4a4a4a;
+  font-size: 15px;
+}
+
+.back_icon {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+}
+.label {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 5px;
+}
+.profile_img {
+  max-width: 4vmax;
+  max-height: 4vmax;
+}
+/*****address view****/
+.bottom_container {
+  background-color: #ffff;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  justify-content: space-between;
+  padding: 2vh 3vw;
+  box-shadow: 0 3px 10px rgb(0 0 0 / 0.4);
+  border-radius: 20px 20px 0 0;
+  margin: 2px;
+  margin-bottom: 5px;
+  position: fixed;
+  width: 93%;
+  bottom: -5px;
+  z-index: 1000;
+  align-items: center;
+}
+
+.bottom_left {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+  width: 100%;
+  padding: 1vh 2vw;
+}
+.bottom_text:nth-child(2),
+.bottom_text:nth-child(3) {
+  margin-left: 5vw;
+}
+.bottom_cart_btn {
+  background-color: #3a7638;
+  color: #fff;
+  padding: 1.3vh 2vw;
+  width: 90%;
+  border-radius: 20px;
+  border: none;
+
+  font-weight: 600;
+}
+
+.bottom_cart_btn2 {
+  background-color: #3a7638;
+  color: #fff;
+  padding: 1.3vh 2vw;
+  width: 80%;
+  border-radius: 20px;
+  border: none;
+  font-weight: 600;
+  margin: auto;
+}
+
+.bottom_text {
+  font-weight: 600;
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.text_bold {
+  font-weight: 400;
+  font-size: 12px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  word-break: break-word;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+  width: 80%;
+}
+.text_light {
+  font-weight: 400;
+  font-size: 12px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  word-break: break-word;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+  width: 80%;
+  color: #8d8b8b;
+}
+
+.text_bolder {
+  font-weight: 600;
+  font-size: 13px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  word-break: break-word;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 1;
+  width: 80%;
+}
+.address_header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 2vw;
+}
